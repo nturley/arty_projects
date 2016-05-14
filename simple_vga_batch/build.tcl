@@ -1,5 +1,5 @@
-read_vhdl { src/top.vhd src/vga_controller.vhd}
-read_xdc src/arty.xdc
+read_vhdl [ glob -directory src *.vhd ]
+read_xdc [ glob -directory src *.xdc ]
 synth_design -top top -part xc7a35ticsg324-1L
 place_design
 route_design
