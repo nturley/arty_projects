@@ -1,0 +1,6 @@
+*.jou
+*.log
+*.bit
+.Xil/*
+*.html
+*.xml
